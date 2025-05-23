@@ -16,8 +16,8 @@ queries.
   "gpodder.net": {
     "errorType": "status_code",
     "rank": 2013984,
-    "url": "HTTPS://gpodder.net/user/{}",
-    "urlMain": "HTTPS://gpodder.net/",
+    "url": "https://gpodder.net/user/{}",
+    "urlMain": "https://gpodder.net/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -28,14 +28,14 @@ queries.
 As of 2020-05-25, all usernames are reported as claimed.
 
 Any query against a user seems to be redirecting to a general information page
-at HTTPS://www.investing.com/brokers/. Probably required login before access.
+at https://www.investing.com/brokers/. Probably required login before access.
 
 ```json
   "Investing.com": {
     "errorType": "status_code",
     "rank": 196,
-    "url": "HTTPS://www.investing.com/traders/{}",
-    "urlMain": "HTTPS://www.investing.com/",
+    "url": "https://www.investing.com/traders/{}",
+    "urlMain": "https://www.investing.com/",
     "username_claimed": "jenny",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -50,15 +50,15 @@ were redirecting to the main page.
 
 I was able to see user profiles without logging in, but the URL was not related
 to their user name. For example, user "tomke" went to
-HTTPS://community.adobe.com/t5/user/viewprofilepage/user-id/10882613. This can
+https://community.adobe.com/t5/user/viewprofilepage/user-id/10882613. This can
 be detected, but it requires a different detection method.
 
 ```json
   "AdobeForums": {
     "errorType": "status_code",
     "rank": 59,
-    "url": "HTTPS://forums.adobe.com/people/{}",
-    "urlMain": "HTTPS://forums.adobe.com/",
+    "url": "https://forums.adobe.com/people/{}",
+    "urlMain": "https://forums.adobe.com/",
     "username_claimed": "jack",
     "username_unclaimed": "noonewouldeverusethis77777"
   },
@@ -73,8 +73,8 @@ As of 2020-02-23, all usernames are reported as not existing.
     "errorMsg": "The account you were looking for doesn't exist",
     "errorType": "message",
     "rank": 4914,
-    "url": "HTTPS://{}.basecamphq.com",
-    "urlMain": "HTTPS://basecamp.com/",
+    "url": "https://{}.basecamphq.com",
+    "urlMain": "https://basecamp.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -103,10 +103,10 @@ As of 2020-02-23, all usernames are reported as not existing.
 ```json
   "Canva": {
     "errorType": "response_url",
-    "errorUrl": "HTTPS://www.canva.com/{}",
+    "errorUrl": "https://www.canva.com/{}",
     "rank": 128,
-    "url": "HTTPS://www.canva.com/{}",
-    "urlMain": "HTTPS://www.canva.com/",
+    "url": "https://www.canva.com/{}",
+    "urlMain": "https://www.canva.com/",
     "username_claimed": "jenny",
     "username_unclaimed": "xgtrq"
   },
@@ -120,8 +120,8 @@ As of 2020-01-21, all usernames are reported as not existing.
   "Pixabay": {
     "errorType": "status_code",
     "rank": 378,
-    "url": "HTTPS://pixabay.com/en/users/{}",
-    "urlMain": "HTTPS://pixabay.com/",
+    "url": "https://pixabay.com/en/users/{}",
+    "urlMain": "https://pixabay.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -134,8 +134,8 @@ NPM-Packages are not users.
 ```json
   "NPM-Package": {
     "errorType": "status_code",
-    "url": "HTTPS://www.npmjs.com/package/{}",
-    "urlMain": "HTTPS://www.npmjs.com/",
+    "url": "https://www.npmjs.com/package/{}",
+    "urlMain": "https://www.npmjs.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -149,8 +149,8 @@ As of 2020-01-21, all usernames are reported as not existing.
   "Pexels": {
     "errorType": "status_code",
     "rank": 745,
-    "url": "HTTPS://www.pexels.com/@{}",
-    "urlMain": "HTTPS://www.pexels.com/",
+    "url": "https://www.pexels.com/@{}",
+    "urlMain": "https://www.pexels.com/",
     "username_claimed": "bruno",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -163,10 +163,10 @@ As of 2019-12-31, site always times out.
 ```json
   "RamblerDating": {
     "errorType": "response_url",
-    "errorUrl": "HTTPS://dating.rambler.ru/page/{}",
+    "errorUrl": "https://dating.rambler.ru/page/{}",
     "rank": 322,
-    "url": "HTTPS://dating.rambler.ru/page/{}",
-    "urlMain": "HTTPS://dating.rambler.ru/",
+    "url": "https://dating.rambler.ru/page/{}",
+    "urlMain": "https://dating.rambler.ru/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -181,8 +181,8 @@ As of 2019-12-31, all usernames are reported as existing.
     "errorMsg": "\u0422\u0443\u0442 \u043d\u0438\u0447\u0435\u0433\u043e \u043d\u0435\u0442",
     "errorType": "message",
     "rank": 47,
-    "url": "HTTPS://market.yandex.ru/user/{}/achievements",
-    "urlMain": "HTTPS://market.yandex.ru/",
+    "url": "https://market.yandex.ru/user/{}/achievements",
+    "urlMain": "https://market.yandex.ru/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -196,8 +196,8 @@ As of 2019-12-31, usernames that exist are not detected.
   "Codementor": {
     "errorType": "status_code",
     "rank": 10252,
-    "url": "HTTPS://www.codementor.io/@{}",
-    "urlMain": "HTTPS://www.codementor.io/",
+    "url": "https://www.codementor.io/@{}",
+    "urlMain": "https://www.codementor.io/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -213,8 +213,8 @@ into see a profile.
     "errorMsg": "The specified member cannot be found",
     "errorType": "message",
     "rank": 38737,
-    "url": "HTTPS://kiwifarms.net/members/?username={}",
-    "urlMain": "HTTPS://kiwifarms.net/",
+    "url": "https://kiwifarms.net/members/?username={}",
+    "urlMain": "https://kiwifarms.net/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   },
@@ -229,8 +229,8 @@ As of 2019-11-30, the site causes Sherlock to just hang.
     "errorMsg": "The user does not exist",
     "errorType": "message",
     "rank": 357163,
-    "url": "HTTPS://user.teknik.io/{}",
-    "urlMain": "HTTPS://teknik.io/",
+    "url": "https://user.teknik.io/{}",
+    "urlMain": "https://teknik.io/",
     "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -265,8 +265,8 @@ requests. There is an error message:
   "Foursquare": {
     "errorType": "status_code",
     "rank": 1843,
-    "url": "HTTPS://foursquare.com/{}",
-    "urlMain": "HTTPS://foursquare.com/",
+    "url": "https://foursquare.com/{}",
+    "urlMain": "https://foursquare.com/",
     "username_claimed": "dens",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -280,8 +280,8 @@ Usernames that don't exist are detected. First noticed 2019-10-25.
   "Khan Academy": {
     "errorType": "status_code",
     "rank": 377,
-    "url": "HTTPS://www.khanacademy.org/profile/{}",
-    "urlMain": "HTTPS://www.khanacademy.org/",
+    "url": "https://www.khanacademy.org/profile/{}",
+    "urlMain": "https://www.khanacademy.org/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -294,10 +294,10 @@ Usernames that exist are not detected.
 ```json
   "EVE Online": {
     "errorType": "response_url",
-    "errorUrl": "HTTPS://eveonline.com",
+    "errorUrl": "https://eveonline.com",
     "rank": 15347,
-    "url": "HTTPS://evewho.com/pilot/{}/",
-    "urlMain": "HTTPS://eveonline.com",
+    "url": "https://evewho.com/pilot/{}/",
+    "urlMain": "https://eveonline.com",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -311,8 +311,8 @@ Usernames that exist are not detected. Forbidden Request 403 Error.
   "AngelList": {
     "errorType": "status_code",
     "rank": 5767,
-    "url": "HTTPS://angel.co/u/{}",
-    "urlMain": "HTTPS://angel.co/",
+    "url": "https://angel.co/u/{}",
+    "urlMain": "https://angel.co/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -327,8 +327,8 @@ names were available.
   "PowerShell Gallery": {
     "errorType": "status_code",
     "rank": 163562,
-    "url": "HTTPS://www.powershellgallery.com/profiles/{}",
-    "urlMain": "HTTPS://www.powershellgallery.com",
+    "url": "https://www.powershellgallery.com/profiles/{}",
+    "urlMain": "https://www.powershellgallery.com",
     "username_claimed": "powershellteam",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -353,8 +353,8 @@ If the site becomes available in the future, we can put it back in.
   "StreamMe": {
     "errorType": "status_code",
     "rank": 31702,
-    "url": "HTTPS://www.stream.me/{}",
-    "urlMain": "HTTPS://www.stream.me/",
+    "url": "https://www.stream.me/{}",
+    "urlMain": "https://www.stream.me/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -389,8 +389,8 @@ Sherlock.
   "Fotolog": {
     "errorType": "status_code",
     "rank": 47777,
-    "url": "HTTPS://fotolog.com/{}",
-    "urlMain": "HTTPS://fotolog.com/"
+    "url": "https://fotolog.com/{}",
+    "urlMain": "https://fotolog.com/"
   },
 ```
 
@@ -406,8 +406,8 @@ Good-bye [`Google Plus`](https://en.wikipedia.org/wiki/Google%2B)...
   "Google Plus": {
     "errorType": "status_code",
     "rank": 1,
-    "url": "HTTPS://plus.google.com/+{}",
-    "urlMain": "HTTPS://plus.google.com/",
+    "url": "https://plus.google.com/+{}",
+    "urlMain": "https://plus.google.com/",
     "username_claimed": "davidbrin1",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -438,11 +438,11 @@ As of 2020-04-02, Sports Tracker returns false positives. Checking with
 
 ```
    "SportsTracker": {
-     "errorUrl": "HTTPS://www.sports-tracker.com/page-not-found",
+     "errorUrl": "https://www.sports-tracker.com/page-not-found",
      "errorType": "response_url",
      "rank": 93950,
-     "url": "HTTPS://www.sports-tracker.com/view_profile/{}",
-     "urlMain": "HTTPS://www.sports-tracker.com/",
+     "url": "https://www.sports-tracker.com/view_profile/{}",
+     "urlMain": "https://www.sports-tracker.com/",
      "username_claimed": "blue",
      "username_unclaimed": "noonewouldeveruse"
    },
@@ -457,8 +457,8 @@ redirecting to skyscanner.com whether the username exists or not.
   "Trip": {
       "errorType": "status_code",
       "rank": 2847,
-      "url": "HTTPS://www.trip.skyscanner.com/user/{}",
-      "urlMain": "HTTPS://www.trip.skyscanner.com/",
+      "url": "https://www.trip.skyscanner.com/user/{}",
+      "urlMain": "https://www.trip.skyscanner.com/",
       "username_claimed": "blue",
       "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -474,8 +474,8 @@ not.
    "boingboing.net": {
      "errorType": "status_code",
      "rank": 5821,
-     "url": "HTTPS://bbs.boingboing.net/u/{}",
-     "urlMain": "HTTPS://boingboing.net/",
+     "url": "https://bbs.boingboing.net/u/{}",
+     "urlMain": "https://boingboing.net/",
      "username_claimed": "admin",
      "username_unclaimed": "noonewouldeverusethis7"
    },
@@ -491,8 +491,8 @@ downforeveryoneorjustme.com that the website is down.
     "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
     "errorType": "message",
     "rank": 254810,
-    "url": "HTTPS://elwo.ru/index/8-0-{}",
-    "urlMain": "HTTPS://elwo.ru/",
+    "url": "https://elwo.ru/index/8-0-{}",
+    "urlMain": "https://elwo.ru/",
     "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -526,8 +526,8 @@ usernames on this particular website.
     "errorMsg": "The specified member cannot be found",
     "errorType": "message",
     "rank": 3796657,
-    "url": "HTTPS://forum.redsun.tf/members/?username={}",
-    "urlMain": "HTTPS://redsun.tf/",
+    "url": "https://forum.redsun.tf/members/?username={}",
+    "urlMain": "https://redsun.tf/",
     "username_claimed": "dan",
     "username_unclaimed": "noonewouldeverusethis"
   },
@@ -544,8 +544,8 @@ robot.
   "CreativeMarket": {
     "errorType": "status_code",
     "rank": 1896,
-    "url": "HTTPS://creativemarket.com/users/{}",
-    "urlMain": "HTTPS://creativemarket.com/",
+    "url": "https://creativemarket.com/users/{}",
+    "urlMain": "https://creativemarket.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -560,8 +560,8 @@ denied" error whenever we try to check for a username.
   "pvpru": {
     "errorType": "status_code",
     "rank": 405547,
-    "url": "HTTPS://pvpru.com/board/member.php?username={}&tab=aboutme#aboutme",
-    "urlMain": "HTTPS://pvpru.com/",
+    "url": "https://pvpru.com/board/member.php?username={}&tab=aboutme#aboutme",
+    "urlMain": "https://pvpru.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -578,8 +578,8 @@ this site, it will be removed
     "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
     "errorType": "message",
     "rank": 11564,
-    "url": "HTTPS://easyen.ru/index/8-0-{}",
-    "urlMain": "HTTPS://easyen.ru/",
+    "url": "https://easyen.ru/index/8-0-{}",
+    "urlMain": "https://easyen.ru/",
     "username_claimed": "wd",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -614,8 +614,8 @@ this site, it will be removed
     "errorMsg": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d",
     "errorType": "message",
     "rank": 105878,
-    "url": "HTTPS://radioskot.ru/index/8-0-{}",
-    "urlMain": "HTTPS://radioskot.ru/",
+    "url": "https://radioskot.ru/index/8-0-{}",
+    "urlMain": "https://radioskot.ru/",
     "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -633,8 +633,8 @@ it and because of this, the best thing we can do now is to remove it.
     "errorMsg": "404! Our feels when that url is used",
     "errorType": "message",
     "rank": 11256,
-    "url": "HTTPS://coderwall.com/{}",
-    "urlMain": "HTTPS://coderwall.com/",
+    "url": "https://coderwall.com/{}",
+    "urlMain": "https://coderwall.com/",
     "username_claimed": "jenny",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -648,10 +648,10 @@ contains a period
 ```json
   "TamTam": {
     "errorType": "response_url",
-    "errorUrl": "HTTPS://tamtam.chat/",
+    "errorUrl": "https://tamtam.chat/",
     "rank": 87903,
-    "url": "HTTPS://tamtam.chat/{}",
-    "urlMain": "HTTPS://tamtam.chat/",
+    "url": "https://tamtam.chat/{}",
+    "urlMain": "https://tamtam.chat/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -669,8 +669,8 @@ takes a very long time to respond.
       "Accept-Language": "en-US,en;q=0.9"
     },
     "rank": 1920,
-    "url": "HTTPS://www.zomato.com/pl/{}/foodjourney",
-    "urlMain": "HTTPS://www.zomato.com/",
+    "url": "https://www.zomato.com/pl/{}/foodjourney",
+    "urlMain": "https://www.zomato.com/",
     "username_claimed": "deepigoyal",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -684,9 +684,9 @@ As of 2020-07-22, the Mixer service has closed down.
   "mixer.com": {
     "errorType": "status_code",
     "rank": 1544,
-    "url": "HTTPS://mixer.com/{}",
-    "urlMain": "HTTPS://mixer.com/",
-    "urlProbe": "HTTPS://mixer.com/api/v1/channels/{}",
+    "url": "https://mixer.com/{}",
+    "urlMain": "https://mixer.com/",
+    "urlProbe": "https://mixer.com/api/v1/channels/{}",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -702,8 +702,8 @@ usernames is found then it will added.
   "KanoWorld": {
     "errorType": "status_code",
     "rank": 181933,
-    "url": "HTTPS://api.kano.me/progress/user/{}",
-    "urlMain": "HTTPS://world.kano.me/",
+    "url": "https://api.kano.me/progress/user/{}",
+    "urlMain": "https://world.kano.me/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -717,8 +717,8 @@ us from checking for usernames
 ```json
   "YandexCollection": {
     "errorType": "status_code",
-    "url": "HTTPS://yandex.ru/collections/user/{}/",
-    "urlMain": "HTTPS://yandex.ru/collections/",
+    "url": "https://yandex.ru/collections/user/{}/",
+    "urlMain": "https://yandex.ru/collections/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -734,11 +734,11 @@ we find a better error detecting method.
   "PayPal": {
     "errorMsg": "<meta name=\"twitter:title\" content=\"Get your very own PayPal.Me link\" />",
     "errorType": "message",
-    "url": "HTTPS://www.paypal.com/paypalme/{}",
+    "url": "https://www.paypal.com/paypalme/{}",
     "headers": {
       "User-Agent": ""
     },
-    "urlMain": "HTTPS://www.paypal.me/",
+    "urlMain": "https://www.paypal.me/",
     "username_claimed": "blue",
     "username_unclaimed": "noneownsthisusername7"
   },
@@ -753,9 +753,9 @@ we find a better error detecting method.
 ```json
   "ImageShack": {
     "errorType": "response_url",
-    "errorUrl": "HTTPS://imageshack.us/",
-    "url": "HTTPS://imageshack.us/user/{}",
-    "urlMain": "HTTPS://imageshack.us/",
+    "errorUrl": "https://imageshack.us/",
+    "url": "https://imageshack.us/user/{}",
+    "urlMain": "https://imageshack.us/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -770,8 +770,8 @@ we find a better error detecting method.
 ```json
   "Aptoide": {
     "errorType": "status_code",
-    "url": "HTTPS://{}.en.aptoide.com/",
-    "urlMain": "HTTPS://en.aptoide.com/",
+    "url": "https://{}.en.aptoide.com/",
+    "urlMain": "https://en.aptoide.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -786,8 +786,8 @@ we find a better error detecting method.
 ```json
   "Crunchyroll": {
     "errorType": "status_code",
-    "url": "HTTPS://www.crunchyroll.com/user/{}",
-    "urlMain": "HTTPS://www.crunchyroll.com/",
+    "url": "https://www.crunchyroll.com/user/{}",
+    "urlMain": "https://www.crunchyroll.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -802,8 +802,8 @@ once we find a better error detecting method.
 ```json
   "T-MobileSupport": {
     "errorType": "status_code",
-    "url": "HTTPS://support.t-mobile.com/people/{}",
-    "urlMain": "HTTPS://support.t-mobile.com",
+    "url": "https://support.t-mobile.com/people/{}",
+    "urlMain": "https://support.t-mobile.com",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -818,8 +818,8 @@ once we find a better error detecting method.
 ```json
   "OpenCollective": {
     "errorType": "status_code",
-    "url": "HTTPS://opencollective.com/{}",
-    "urlMain": "HTTPS://opencollective.com/",
+    "url": "https://opencollective.com/{}",
+    "urlMain": "https://opencollective.com/",
     "username_claimed": "sindresorhus",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -834,8 +834,8 @@ we find a better error detecting method.
 ```json
   "SegmentFault": {
     "errorType": "status_code",
-    "url": "HTTPS://segmentfault.com/u/{}",
-    "urlMain": "HTTPS://segmentfault.com/",
+    "url": "https://segmentfault.com/u/{}",
+    "urlMain": "https://segmentfault.com/",
     "username_claimed": "bule",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -864,9 +864,9 @@ As of 2020-09-02, MeetMe returns false positives
 ```json
   "MeetMe": {
     "errorType": "response_url",
-    "errorUrl": "HTTPS://www.meetme.com/",
-    "url": "HTTPS://www.meetme.com/{}",
-    "urlMain": "HTTPS://www.meetme.com/",
+    "errorUrl": "https://www.meetme.com/",
+    "url": "https://www.meetme.com/{}",
+    "urlMain": "https://www.meetme.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -882,8 +882,8 @@ prompted to login when checking for a user
     "errorMsg": "could not be found",
     "errorType": "message",
     "rank": 0,
-    "url": "HTTPS://www.linkedin.com/in/{}",
-    "urlMain": "HTTPS://www.linkedin.com/",
+    "url": "https://www.linkedin.com/in/{}",
+    "urlMain": "https://www.linkedin.com/",
     "username_claimed": "alex",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -899,8 +899,8 @@ shut down.
     "errorMsg": "No search results",
     "errorType": "message",
     "regexCheck": "^[A-Za-z0-9]{2,32}$",
-    "url": "HTTPS://tracr.co/users/1/{}",
-    "urlMain": "HTTPS://tracr.co/",
+    "url": "https://tracr.co/users/1/{}",
+    "urlMain": "https://tracr.co/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -914,8 +914,8 @@ As of 2020-09-23, Taringa returns false positives.
   "Taringa": {
     "errorType": "status_code",
     "regexCheck": "^[^.]*$",
-    "url": "HTTPS://www.taringa.net/{}",
-    "urlMain": "HTTPS://taringa.net/",
+    "url": "https://www.taringa.net/{}",
+    "urlMain": "https://taringa.net/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -928,8 +928,8 @@ As of 2020-10-21, Photobucket return false positives. This was reported in #785.
 ```json
   "Photobucket": {
     "errorType": "status_code",
-    "url": "HTTPS://photobucket.com/user/{}/library",
-    "urlMain": "HTTPS://photobucket.com/",
+    "url": "https://photobucket.com/user/{}/library",
+    "urlMain": "https://photobucket.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -943,9 +943,9 @@ As of 2020-10-21, 4PDA returns false positives. This was reported in #784.
   "4pda": {
     "errorMsg": "[1,false,0]",
     "errorType": "message",
-    "url": "HTTPS://4pda.ru/forum/index.php?act=search&source=pst&noform=1&username={}",
-    "urlMain": "HTTPS://4pda.ru/",
-    "urlProbe": " HTTPS://4pda.ru/forum/index.php?act=auth&action=chkname&login={}",
+    "url": "https://4pda.ru/forum/index.php?act=search&source=pst&noform=1&username={}",
+    "urlMain": "https://4pda.ru/",
+    "urlProbe": " https://4pda.ru/forum/index.php?act=auth&action=chkname&login={}",
     "username_claimed": "green",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -978,8 +978,8 @@ Filmogs has closed down.
 ```json
   "Filmogs": {
     "errorType": "status_code",
-    "url": "HTTPS://www.filmo.gs/users/{}",
-    "urlMain": "HTTPS://www.filmo.gs/",
+    "url": "https://www.filmo.gs/users/{}",
+    "urlMain": "https://www.filmo.gs/",
     "username_claimed": "cupparober",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -994,9 +994,9 @@ soon once we add the ability to add different request methods.
   "500px": {
     "errorMsg": "No message available",
     "errorType": "message",
-    "url": "HTTPS://500px.com/p/{}",
-    "urlMain": "HTTPS://500px.com/",
-    "urlProbe": "HTTPS://api.500px.com/graphql?operationName=ProfileRendererQuery&variables=%7B%22username%22%3A%22{}%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%224d02ff5c13927a3ac73b3eef306490508bc765956940c31051468cf30402a503%22%7D%7D",
+    "url": "https://500px.com/p/{}",
+    "urlMain": "https://500px.com/",
+    "urlProbe": "https://api.500px.com/graphql?operationName=ProfileRendererQuery&variables=%7B%22username%22%3A%22{}%22%7D&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%224d02ff5c13927a3ac73b3eef306490508bc765956940c31051468cf30402a503%22%7D%7D",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1009,8 +1009,8 @@ As of 2021-01-13, Badoo returns false positives
 ```json
   "Badoo": {
     "errorType": "status_code",
-    "url": "HTTPS://badoo.com/profile/{}",
-    "urlMain": "HTTPS://badoo.com/",
+    "url": "https://badoo.com/profile/{}",
+    "urlMain": "https://badoo.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1024,8 +1024,8 @@ As of 2021-01-13, Pling returns false positives.
   "Pling": {
     "errorMsg": "Resource not found",
     "errorType": "message",
-    "url": "HTTPS://www.pling.com/u/{}/",
-    "urlMain": "HTTPS://www.pling.com/",
+    "url": "https://www.pling.com/u/{}/",
+    "urlMain": "https://www.pling.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   },
@@ -1039,8 +1039,8 @@ As of 2021-01-13, Realmeye returns false positives.
   "Realmeye": {
     "errorMsg": "Sorry, but we either:",
     "errorType": "message",
-    "url": "HTTPS://www.realmeye.com/player/{}",
-    "urlMain": "HTTPS://www.realmeye.com/",
+    "url": "https://www.realmeye.com/player/{}",
+    "urlMain": "https://www.realmeye.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1054,8 +1054,8 @@ As of 2021-01-13, Travellerspoint returns false positives
   "Travellerspoint": {
     "errorMsg": "Wooops. Sorry!",
     "errorType": "message",
-    "url": "HTTPS://www.travellerspoint.com/users/{}",
-    "urlMain": "HTTPS://www.travellerspoint.com",
+    "url": "https://www.travellerspoint.com/users/{}",
+    "urlMain": "https://www.travellerspoint.com",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1069,8 +1069,8 @@ their side.
 ```json
   "GDProfiles": {
     "errorType": "status_code",
-    "url": "HTTPS://gdprofiles.com/{}",
-    "urlMain": "HTTPS://gdprofiles.com/",
+    "url": "https://gdprofiles.com/{}",
+    "urlMain": "https://gdprofiles.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   },
@@ -1085,8 +1085,8 @@ usernames on the site.
   "AllTrails": {
     "errorMsg": "class=\"home index\"",
     "errorType": "message",
-    "url": "HTTPS://www.alltrails.com/members/{}",
-    "urlMain": "HTTPS://www.alltrails.com/",
+    "url": "https://www.alltrails.com/members/{}",
+    "urlMain": "https://www.alltrails.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   }
@@ -1100,8 +1100,8 @@ As of 2021-06-27, there is not way of checking if a username exists on Cent
   "Cent": {
     "errorMsg": "<title>Cent</title>",
     "errorType": "message",
-    "url": "HTTPS://beta.cent.co/@{}",
-    "urlMain": "HTTPS://cent.co/",
+    "url": "https://beta.cent.co/@{}",
+    "urlMain": "https://cent.co/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1116,8 +1116,8 @@ checking usernames.
 
   "Anobii": {
     "errorType": "response_url",
-    "url": "HTTPS://www.anobii.com/{}/profile",
-    "urlMain": "HTTPS://www.anobii.com/",
+    "url": "https://www.anobii.com/{}/profile",
+    "urlMain": "https://www.anobii.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1132,8 +1132,8 @@ user exists on their forum.
   "Kali community": {
     "errorMsg": "This user has not registered and therefore does not have a profile to view.",
     "errorType": "message",
-    "url": "HTTPS://forums.kali.org/member.php?username={}",
-    "urlMain": "HTTPS://forums.kali.org/",
+    "url": "https://forums.kali.org/member.php?username={}",
+    "urlMain": "https://forums.kali.org/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1148,8 +1148,8 @@ checking if usernames exists on the site.
   "NameMC (Minecraft.net skins)": {
     "errorMsg": "Profiles: 0 results",
     "errorType": "message",
-    "url": "HTTPS://namemc.com/profile/{}",
-    "urlMain": "HTTPS://namemc.com/",
+    "url": "https://namemc.com/profile/{}",
+    "urlMain": "https://namemc.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1162,10 +1162,10 @@ checking if usernames exists on the site.
 
 ```json
   "Steamid": {
-    "errorMsg": "<link rel=\"canonical\" href=\"HTTPS://steamid.uk\" />",
+    "errorMsg": "<link rel=\"canonical\" href=\"https://steamid.uk\" />",
     "errorType": "message",
-    "url": "HTTPS://steamid.uk/profile/{}",
-    "urlMain": "HTTPS://steamid.uk/",
+    "url": "https://steamid.uk/profile/{}",
+    "urlMain": "https://steamid.uk/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1180,8 +1180,8 @@ reason is not known.
   "TripAdvisor": {
     "errorMsg": "This page is on vacation\u2026",
     "errorType": "message",
-    "url": "HTTPS://tripadvisor.com/members/{}",
-    "urlMain": "HTTPS://tripadvisor.com/",
+    "url": "https://tripadvisor.com/members/{}",
+    "urlMain": "https://tripadvisor.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1197,8 +1197,8 @@ As of 2021-09-04, House Mixes has issues connecting causing Sherlock to freeze.
     "errorMsg": "Profile Not Found",
     "errorType": "message",
     "regexCheck": "^[a-zA-Z0-9]+(-[a-zA-Z0-9]+)*$",
-    "url": "HTTPS://www.house-mixes.com/profile/{}",
-    "urlMain": "HTTPS://www.house-mixes.com/",
+    "url": "https://www.house-mixes.com/profile/{}",
+    "urlMain": "https://www.house-mixes.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1212,8 +1212,8 @@ As of 2021-09-04, Quora returns false positives.
   "Quora": {
     "errorMsg": "Page Not Found",
     "errorType": "message",
-    "url": "HTTPS://www.quora.com/profile/{}",
-    "urlMain": "HTTPS://www.quora.com/",
+    "url": "https://www.quora.com/profile/{}",
+    "urlMain": "https://www.quora.com/",
     "username_claimed": "Matt-Riggsby",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1227,8 +1227,8 @@ As of 2021-09-04, SparkPeople returns false positives.
   "SparkPeople": {
     "errorMsg": "We couldn't find that user",
     "errorType": "message",
-    "url": "HTTPS://www.sparkpeople.com/mypage.asp?id={}",
-    "urlMain": "HTTPS://www.sparkpeople.com",
+    "url": "https://www.sparkpeople.com/mypage.asp?id={}",
+    "urlMain": "https://www.sparkpeople.com",
     "username_claimed": "adam",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1241,8 +1241,8 @@ As of 2021-10-25, Cloob seems to be down and their site is not responding.
 ```json
   "Cloob": {
     "errorType": "status_code",
-    "url": "HTTPS://www.cloob.com/name/{}",
-    "urlMain": "HTTPS://www.cloob.com/",
+    "url": "https://www.cloob.com/name/{}",
+    "urlMain": "https://www.cloob.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1256,8 +1256,8 @@ As of 2021-11-21, 1337x seems to be down causing false positives.
   "1337x": {
     "errorMsg": "Bad Username",
     "errorType": "message",
-    "url": "HTTPS://1337x.to/user/{}/",
-    "urlMain": "HTTPS://1337x.to",
+    "url": "https://1337x.to/user/{}/",
+    "urlMain": "https://1337x.to",
     "username_claimed": "TheMorozko",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1285,8 +1285,8 @@ down.
 ```json
   "plug.dj": {
     "errorType": "status_code",
-    "url": "HTTPS://plug.dj/@/{}",
-    "urlMain": "HTTPS://plug.dj/",
+    "url": "https://plug.dj/@/{}",
+    "urlMain": "https://plug.dj/",
     "username_claimed": "plug-dj-rock",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1299,10 +1299,10 @@ As of 2022-02-6, Facenama seems to be down their rebuilding their site
 ```json
   "Facenama": {
     "errorType": "response_url",
-    "errorUrl": "HTTPS://facenama.com/404.html",
+    "errorUrl": "https://facenama.com/404.html",
     "regexCheck": "^[-a-zA-Z0-9_]+$",
-    "url": "HTTPS://facenama.com/{}",
-    "urlMain": "HTTPS://facenama.com/",
+    "url": "https://facenama.com/{}",
+    "urlMain": "https://facenama.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis77"
   },
@@ -1316,8 +1316,8 @@ we're removing the site for now.
 ```json
   "Designspiration": {
     "errorType": "status_code",
-    "url": "HTTPS://www.designspiration.net/{}/",
-    "urlMain": "HTTPS://www.designspiration.net/",
+    "url": "https://www.designspiration.net/{}/",
+    "urlMain": "https://www.designspiration.net/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1333,8 +1333,8 @@ doesn't. This then of course causes false positives in Sherlock's results.
     "errorMsg": "<div class=\"err show p5\">No results found</div>",
     "errorType": "message",
     "regexCheck": "^[`a-zA-z`][a-zA-Z0-9_]{2,79}$",
-    "url": "HTTPS://www.capfriendly.com/users/{}",
-    "urlMain": "HTTPS://www.capfriendly.com/",
+    "url": "https://www.capfriendly.com/users/{}",
+    "urlMain": "https://www.capfriendly.com/",
     "username_claimed": "thisactuallyexists",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1348,8 +1348,8 @@ As of 2022-05-01, Gab returns false positives because they now use CloudFlare
   "Gab": {
     "errorMsg": "The page you are looking for isn't here.",
     "errorType": "message",
-    "url": "HTTPS://gab.com/{}",
-    "urlMain": "HTTPS://gab.com",
+    "url": "https://gab.com/{}",
+    "urlMain": "https://gab.com",
     "username_claimed": "a",
     "username_unclaimed": "noonewouldeverusethis"
   },
@@ -1364,8 +1364,8 @@ Sherlock.
   "FanCentro": {
     "errorMsg": "var environment",
     "errorType": "message",
-    "url": "HTTPS://fancentro.com/{}",
-    "urlMain": "HTTPS://fancentro.com/",
+    "url": "https://fancentro.com/{}",
+    "urlMain": "https://fancentro.com/",
     "username_claimed": "nielsrosanna",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1378,9 +1378,9 @@ As og 2022-05-01, Codeforces returns false positives
 ```json
   "Codeforces": {
     "errorType": "response_url",
-    "errorUrl": "HTTPS://codeforces.com/",
-    "url": "HTTPS://codeforces.com/profile/{}",
-    "urlMain": "HTTPS://www.codeforces.com/",
+    "errorUrl": "https://codeforces.com/",
+    "url": "https://codeforces.com/profile/{}",
+    "urlMain": "https://www.codeforces.com/",
     "username_claimed": "tourist",
     "username_unclaimed": "noonewouldeverusethis789"
   },
@@ -1393,8 +1393,8 @@ As og 2022-05-01, Smashcast is down
 ```json
   "Smashcast": {
     "errorType": "status_code",
-    "url": "HTTPS://www.smashcast.tv/api/media/live/{}",
-    "urlMain": "HTTPS://www.smashcast.tv/",
+    "url": "https://www.smashcast.tv/api/media/live/{}",
+    "urlMain": "https://www.smashcast.tv/",
     "username_claimed": "hello",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1407,8 +1407,8 @@ As og 2022-05-01, Countable returns false positives
 ```json
   "Countable": {
     "errorType": "status_code",
-    "url": "HTTPS://www.countable.us/{}",
-    "urlMain": "HTTPS://www.countable.us/",
+    "url": "https://www.countable.us/{}",
+    "urlMain": "https://www.countable.us/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1422,8 +1422,8 @@ As og 2022-05-01, Steam returns false positives
   "Steam": {
     "errorMsg": "The specified profile could not be found",
     "errorType": "message",
-    "url": "HTTPS://steamcommunity.com/id/{}",
-    "urlMain": "HTTPS://steamcommunity.com/",
+    "url": "https://steamcommunity.com/id/{}",
+    "urlMain": "https://steamcommunity.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1437,8 +1437,8 @@ Raidforums is
 ```json
   "Raidforums": {
     "errorType": "status_code",
-    "url": "HTTPS://raidforums.com/User-{}",
-    "urlMain": "HTTPS://raidforums.com/",
+    "url": "https://raidforums.com/User-{}",
+    "urlMain": "https://raidforums.com/",
     "username_claimed": "red",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1451,8 +1451,8 @@ Removed due to false positive
 ```json
   "Pinterest": {
     "errorType": "status_code",
-    "url": "HTTPS://www.pinterest.com/{}/",
-    "urlMain": "HTTPS://www.pinterest.com/",
+    "url": "https://www.pinterest.com/{}/",
+    "urlMain": "https://www.pinterest.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis76543"
   }
@@ -1466,8 +1466,8 @@ exits
 ```json
   "PCPartPicker": {
     "errorType": "status_code",
-    "url": "HTTPS://pcpartpicker.com/user/{}",
-    "urlMain": "HTTPS://pcpartpicker.com",
+    "url": "https://pcpartpicker.com/user/{}",
+    "urlMain": "https://pcpartpicker.com",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1483,16 +1483,16 @@ further later.
   "eBay.com": {
     "errorMsg": "The User ID you entered was not found. Please check the User ID and try again.",
     "errorType": "message",
-    "url": "HTTPS://www.ebay.com/usr/{}",
-    "urlMain": "HTTPS://www.ebay.com/",
+    "url": "https://www.ebay.com/usr/{}",
+    "urlMain": "https://www.ebay.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
   "eBay.de": {
     "errorMsg": "Der eingegebene Nutzername wurde nicht gefunden. Bitte pr\u00fcfen Sie den Nutzernamen und versuchen Sie es erneut.",
     "errorType": "message",
-    "url": "HTTPS://www.ebay.de/usr/{}",
-    "urlMain": "HTTPS://www.ebay.de/",
+    "url": "https://www.ebay.de/usr/{}",
+    "urlMain": "https://www.ebay.de/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1506,8 +1506,8 @@ As of 17-07-2022, Ghost returns false positives
   "Ghost": {
     "errorMsg": "Domain Error",
     "errorType": "message",
-    "url": "HTTPS://{}.ghost.io/",
-    "urlMain": "HTTPS://ghost.org/",
+    "url": "https://{}.ghost.io/",
+    "urlMain": "https://ghost.org/",
     "username_claimed": "troyhunt",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1523,8 +1523,8 @@ a username
   "Atom Discussions": {
     "errorMsg": "Oops! That page doesn\u2019t exist or is private.",
     "errorType": "message",
-    "url": "HTTPS://discuss.atom.io/u/{}/summary",
-    "urlMain": "HTTPS://discuss.atom.io",
+    "url": "https://discuss.atom.io/u/{}/summary",
+    "urlMain": "https://discuss.atom.io",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis"
   }
@@ -1537,8 +1537,8 @@ As of 25-07-2022, Gam1ng has been permanently moved and is no longer functional
 ```json
   "Gam1ng": {
     "errorType": "status_code",
-    "url": "HTTPS://gam1ng.com.br/user/{}",
-    "urlMain": "HTTPS://gam1ng.com.br",
+    "url": "https://gam1ng.com.br/user/{}",
+    "urlMain": "https://gam1ng.com.br",
     "username_claimed": "PinKgirl",
     "username_unclaimed": "noonewouldeverusethis77777"
   }
@@ -1551,8 +1551,8 @@ As of 25-07-2022, OGUsers is now no longer functional
 ```json
   "OGUsers": {
     "errorType": "status_code",
-    "url": "HTTPS://ogusers.com/{}",
-    "urlMain": "HTTPS://ogusers.com/",
+    "url": "https://ogusers.com/{}",
+    "urlMain": "https://ogusers.com/",
     "username_claimed": "ogusers",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1565,8 +1565,8 @@ As of 25-07-2022, Otzovik is now no longer functional
 ```json
   "Otzovik": {
     "errorType": "status_code",
-    "url": "HTTPS://otzovik.com/profile/{}",
-    "urlMain": "HTTPS://otzovik.com/",
+    "url": "https://otzovik.com/profile/{}",
+    "urlMain": "https://otzovik.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1579,8 +1579,8 @@ As of 25-07-2022, radio_echo_msk is now no longer functional
 ```json
   "radio_echo_msk": {
     "errorType": "status_code",
-    "url": "HTTPS://echo.msk.ru/users/{}",
-    "urlMain": "HTTPS://echo.msk.ru/",
+    "url": "https://echo.msk.ru/users/{}",
+    "urlMain": "https://echo.msk.ru/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1594,8 +1594,8 @@ As of 06.09.2022, Ello is now behind CloudFlare
   "Ello": {
     "errorMsg": "We couldn't find the page you're looking for",
     "errorType": "message",
-    "url": "HTTPS://ello.co/{}",
-    "urlMain": "HTTPS://ello.co/",
+    "url": "https://ello.co/{}",
+    "urlMain": "https://ello.co/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1610,8 +1610,8 @@ community page
   "GitHub Support Community": {
     "errorMsg": "Oops! That page doesn\u2019t exist or is private.",
     "errorType": "message",
-    "url": "HTTPS://GitHub.Community/u/{}/summary",
-    "urlMain": "HTTPS://github.community",
+    "url": "https://GitHub.Community/u/{}/summary",
+    "urlMain": "https://github.community",
     "username_claimed": "jperl",
     "username_unclaimed": "noonewouldusethis298"
   }
@@ -1625,8 +1625,8 @@ blank page. Need to look further into it so that it can be added back.
 ```json
   "GuruShots": {
     "errorType": "status_code",
-    "url": "HTTPS://gurushots.com/{}/photos",
-    "urlMain": "HTTPS://gurushots.com/",
+    "url": "https://gurushots.com/{}/photos",
+    "urlMain": "https://gurushots.com/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1641,8 +1641,8 @@ so we're not abl to get any proper results
   "Google Developer": {
     "errorMsg": "Sorry, the profile was not found.",
     "errorType": "message",
-    "url": "HTTPS://g.dev/{}",
-    "urlMain": "HTTPS://g.dev/",
+    "url": "https://g.dev/{}",
+    "urlMain": "https://g.dev/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1656,8 +1656,8 @@ As of 18.12.2022, mastodon.technology has no A/AAAA records and the
 ```json
   "mastodon.technology": {
     "errorType": "status_code",
-    "url": "HTTPS://mastodon.technology/@{}",
-    "urlMain": "HTTPS://mastodon.xyz/",
+    "url": "https://mastodon.technology/@{}",
+    "urlMain": "https://mastodon.xyz/",
     "username_claimed": "ashfurrow",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1673,8 +1673,8 @@ takes some time. Will be fixed later
     "errorMsg":"<title>Arduino Cloud</title>",
     "errorType": "message",
     "regexCheck": "^(?![_-])[A-Za-z0-9_-]{3,}$",
-    "url": "HTTPS://projecthub.arduino.cc/{}",
-    "urlMain": "HTTPS://www.arduino.cc/",
+    "url": "https://projecthub.arduino.cc/{}",
+    "urlMain": "https://www.arduino.cc/",
     "username_claimed": "blue",
     "username_unclaimed": "noonewould"
   },
@@ -1691,8 +1691,8 @@ at the moment.
   "zoomit": {
     "errorMsg": "\u0645\u062a\u0627\u0633\u0641\u0627\u0646\u0647 \u0635\u0641\u062d\u0647 \u06cc\u0627\u0641\u062a \u0646\u0634\u062f",
     "errorType": "message",
-    "url": "HTTPS://www.zoomit.ir/user/{}",
-    "urlMain": "HTTPS://www.zoomit.ir",
+    "url": "https://www.zoomit.ir/user/{}",
+    "urlMain": "https://www.zoomit.ir",
     "username_claimed": "kossher",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1707,9 +1707,9 @@ the login screen to view the data
 "Facebook": {
     "errorType": "status_code",
     "regexCheck": "^[a-zA-Z0-9\\.]{3,49}(?<!\\.com|\\.org|\\.net)$",
-    "url": "HTTPS://www.facebook.com/{}",
-    "urlMain": "HTTPS://www.facebook.com/",
-    "urlProbe": "HTTPS://www.facebook.com/{}/videos/",
+    "url": "https://www.facebook.com/{}",
+    "urlMain": "https://www.facebook.com/",
+    "urlProbe": "https://www.facebook.com/{}/videos/",
     "username_claimed": "hackerman",
     "username_unclaimed": "noonewouldeverusethis7"
   },
@@ -1724,9 +1724,9 @@ As of 08.02.2023, BinarySearch seems to not be responding at all
     "errorMsg": "{}",
     "errorType": "message",
     "regexCheck": "^[a-zA-Z0-9-_]{1,15}$",
-    "url": "HTTPS://binarysearch.io/@/{}",
-    "urlMain": "HTTPS://binarysearch.io/",
-    "urlProbe": "HTTPS://binarysearch.io/api/users/{}/profile",
+    "url": "https://binarysearch.io/@/{}",
+    "urlMain": "https://binarysearch.io/",
+    "urlProbe": "https://binarysearch.io/api/users/{}/profile",
     "username_claimed": "Eyes_Wide_Shut"
   },
 ```
@@ -1739,8 +1739,8 @@ As of 15.02.2023, Arduino returns false positives due to some unstable redirects
   "Arduino": {
     "errorType": "status_code",
     "regexCheck": "^(?![_-])[A-Za-z0-9_-]{3,}$",
-    "url": "HTTPS://create.arduino.cc/projecthub/{}",
-    "urlMain": "HTTPS://www.arduino.cc/",
+    "url": "https://create.arduino.cc/projecthub/{}",
+    "urlMain": "https://www.arduino.cc/",
     "username_claimed": "blue"
   },
 ```
@@ -1753,9 +1753,9 @@ As of 15.02.2023, Koo returns false positives
   "koo": {
     "errorMsg": "This profile does not exist",
     "errorType": "message",
-    "url": "HTTPS://www.kooapp.com/profile/{}",
-    "urlMain": "HTTPS://www.kooapp.com",
-    "urlProbe": "HTTPS://www.kooapp.com/apiV1/users/handle/{}/valid",
+    "url": "https://www.kooapp.com/profile/{}",
+    "urlMain": "https://www.kooapp.com",
+    "urlProbe": "https://www.kooapp.com/apiV1/users/handle/{}/valid",
     "username_claimed": "john"
   }
 ```
@@ -1770,8 +1770,8 @@ application. A potential way of fixing this is to find API endpoints in the app
   "We Heart It": {
     "errorMsg": "Oops! You've landed on a moving target!",
     "errorType": "message",
-    "url": "HTTPS://weheartit.com/{}",
-    "urlMain": "HTTPS://weheartit.com/",
+    "url": "https://weheartit.com/{}",
+    "urlMain": "https://weheartit.com/",
     "username_claimed": "ventivogue"
   }
 ```
@@ -1788,8 +1788,8 @@ endpoint on the android app to find a better soon
       "<title data-react-helmet=\"true\">Tinder | Match. Chat. Date.</title>"
     ],
     "errorType": "message",
-    "url": "HTTPS://www.tinder.com/@{}",
-    "urlMain": "HTTPS://tinder.com/",
+    "url": "https://www.tinder.com/@{}",
+    "urlMain": "https://tinder.com/",
     "username_claimed": "blue"
   },
 ```
@@ -1811,9 +1811,9 @@ requests return a 404.
         "userShortName": "{}"
       }
     },
-    "url": "HTTPS://coil.com/u/{}",
-    "urlMain": "HTTPS://coil.com/",
-    "urlProbe": "HTTPS://coil.com/gateway",
+    "url": "https://coil.com/u/{}",
+    "urlMain": "https://coil.com/",
+    "urlProbe": "https://coil.com/gateway",
     "username_claimed": "adam"
   }
 ```
@@ -1827,9 +1827,9 @@ the API endpoint and directly through their website.
 "OnlyFans": {
     "errorType": "status_code",
     "isNSFW": true,
-    "url": "HTTPS://onlyfans.com/{}",
-    "urlMain": "HTTPS://onlyfans.com/",
-    "urlProbe": "HTTPS://onlyfans.com/api2/v2/users/{}",
+    "url": "https://onlyfans.com/{}",
+    "urlMain": "https://onlyfans.com/",
+    "urlProbe": "https://onlyfans.com/api2/v2/users/{}",
     "username_claimed": "theemilylynne"
   }
 ```
@@ -1843,9 +1843,9 @@ query for usernames but they now user Cloudflare
   "Instagram": {
     "errorMsg": "Nothing found!",
     "errorType": "message",
-    "url": "HTTPS://www.instagram.com/{}",
-    "urlMain": "HTTPS://www.instagram.com/",
-    "urlProbe": "HTTPS://www.picuki.com/profile/{}",
+    "url": "https://www.instagram.com/{}",
+    "urlMain": "https://www.instagram.com/",
+    "urlProbe": "https://www.picuki.com/profile/{}",
     "username_claimed": "blue"
   }
 ```
@@ -1858,8 +1858,8 @@ As of 2023.04.21, Ok.ru returns false positives
   "OK": {
     "errorType": "status_code",
     "regexCheck": "^[`a-zA-Z`][a-zA-Z0-9_.-]*$",
-    "url": "HTTPS://ok.ru/{}",
-    "urlMain": "HTTPS://ok.ru/",
+    "url": "https://ok.ru/{}",
+    "urlMain": "https://ok.ru/",
     "username_claimed": "ok"
   }
 ```
@@ -1872,8 +1872,8 @@ As of 2023.04.21, ForumhouseRU returns false positives
   "forumhouseRU": {
     "errorMsg": "\u0423\u043a\u0430\u0437\u0430\u043d\u043d\u044b\u0439 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0434\u0440\u0443\u0433\u043e\u0435 \u0438\u043c\u044f.",
     "errorType": "message",
-    "url": "HTTPS://www.forumhouse.ru/members/?username={}",
-    "urlMain": "HTTPS://www.forumhouse.ru/",
+    "url": "https://www.forumhouse.ru/members/?username={}",
+    "urlMain": "https://www.forumhouse.ru/",
     "username_claimed": "red"
   }
 ```
@@ -1886,8 +1886,8 @@ As of 2023.08.29, Enjin has closed down.
 "Enjin": {
     "errorMsg": "Yikes, there seems to have been an error. We've taken note and will check out the problem right away!",
     "errorType": "message",
-    "url": "HTTPS://www.enjin.com/profile/{}",
-    "urlMain": "HTTPS://www.enjin.com/",
+    "url": "https://www.enjin.com/profile/{}",
+    "urlMain": "https://www.enjin.com/",
     "username_claimed": "blue"
   },
 ```
@@ -1899,8 +1899,8 @@ As of 2023.08.29, IRL has shut down
 ```json
   "IRL": {
     "errorType": "status_code",
-    "url": "HTTPS://www.irl.com/{}",
-    "urlMain": "HTTPS://www.irl.com/",
+    "url": "https://www.irl.com/{}",
+    "urlMain": "https://www.irl.com/",
     "username_claimed": "hacker"
   }
 ```
@@ -1913,8 +1913,8 @@ check if a user exists or not
 ```json
   "Munzee": {
     "errorType": "status_code",
-    "url": "HTTPS://www.munzee.com/m/{}",
-    "urlMain": "HTTPS://www.munzee.com/",
+    "url": "https://www.munzee.com/m/{}",
+    "urlMain": "https://www.munzee.com/",
     "username_claimed": "blue"
   }
 ```
@@ -1928,8 +1928,8 @@ exsits on the website
 "Quizlet": {
     "errorMsg": "Page Unavailable",
     "errorType": "message",
-    "url": "HTTPS://quizlet.com/{}",
-    "urlMain": "HTTPS://quizlet.com",
+    "url": "https://quizlet.com/{}",
+    "urlMain": "https://quizlet.com",
     "username_claimed": "blue"
   }
 ```
@@ -1946,8 +1946,8 @@ but thats not possible with how Sherlock currently works
     "headers": {
       "Cookie": "CONSENT=YES+cb.20210418-17-p0.it+FX+917; "
     },
-    "url": "HTTPS://www.youtube.com/c/{}",
-    "urlMain": "HTTPS://www.youtube.com",
+    "url": "https://www.youtube.com/c/{}",
+    "urlMain": "https://www.youtube.com",
     "username_claimed": "mkbhd"
   },
   "Youtube User": {
@@ -1956,8 +1956,8 @@ but thats not possible with how Sherlock currently works
     "headers": {
       "Cookie": "CONSENT=YES+cb.20210418-17-p0.it+FX+917; "
     },
-    "url": "HTTPS://www.youtube.com/user/{}",
-    "urlMain": "HTTPS://www.youtube.com",
+    "url": "https://www.youtube.com/user/{}",
+    "urlMain": "https://www.youtube.com",
     "username_claimed": "pewdiepie",
     "username_unclaimed": "noonewouldeverusethis7"
   }
@@ -1970,8 +1970,8 @@ As of 2023.08.29, GunsAndAmmo responds with 404 from time to time
 ```json
   "GunsAndAmmo": {
     "errorType": "status_code",
-    "url": "HTTPS://forums.gunsandammo.com/profile/{}",
-    "urlMain": "HTTPS://gunsandammo.com/",
+    "url": "https://forums.gunsandammo.com/profile/{}",
+    "urlMain": "https://gunsandammo.com/",
     "username_claimed": "adam"
   }
 ```
@@ -1985,8 +1985,8 @@ existence of usernames. Proxitok does not work either.
 ```json
   "TikTok": {
     "errorType": "status_code",
-    "url": "HTTPS://tiktok.com/@{}",
-    "urlMain": "HTTPS://tiktok.com/",
+    "url": "https://tiktok.com/@{}",
+    "urlMain": "https://tiktok.com/",
     "username_claimed": "red"
   },
 ```
@@ -1999,8 +1999,8 @@ As of 2023.12.21, Lolchess returns false positives.
   "Lolchess": {
     "errorMsg": "No search results",
     "errorType": "message",
-    "url": "HTTPS://lolchess.gg/profile/na/{}",
-    "urlMain": "HTTPS://lolchess.gg/",
+    "url": "https://lolchess.gg/profile/na/{}",
+    "urlMain": "https://lolchess.gg/",
     "username_claimed": "blue"
   },
 ```
@@ -2013,8 +2013,8 @@ As of 2023.12.21, Virgool returns false positives.
   "Virgool": {
     "errorMsg": "\u06f4\u06f0\u06f4",
     "errorType": "message",
-    "url": "HTTPS://virgool.io/@{}",
-    "urlMain": "HTTPS://virgool.io/",
+    "url": "https://virgool.io/@{}",
+    "urlMain": "https://virgool.io/",
     "username_claimed": "blue"
   },
 ```
@@ -2026,8 +2026,8 @@ As of 2023.12.21, Whonix Forum returns false positives.
 ```json
   "Whonix Forum": {
     "errorType": "status_code",
-    "url": "HTTPS://forums.whonix.org/u/{}/summary",
-    "urlMain": "HTTPS://forums.whonix.org/",
+    "url": "https://forums.whonix.org/u/{}/summary",
+    "urlMain": "https://forums.whonix.org/",
     "username_claimed": "red"
   },
 ```
@@ -2039,7 +2039,7 @@ As of 2023.12.21, Ebio returns false positives.
 ```json
   "ebio.gg": {
     "errorType": "status_code",
-    "url": "HTTPS://ebio.gg/{}",
+    "url": "https://ebio.gg/{}",
     "urlMain": "https:/ebio.gg",
     "username_claimed": "dev"
   },
